@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{
+    background-color: #1E202B !important;
+    color: white !important;
+    padding: 30px 0px;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 25px;
+    padding: 1px 25px !important;
+}
+.nav-link:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 25px;
+
+}
+.home{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 25px;
+
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    margin-right: 100px !important;
+}
+.logo:hover{
+    color: white;
+}
+.logo-cpation{
+    margin: 10px 0px;
+}
+.logo .logo-cpation h1{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.logo .logo-cpation p{
+    font-size: x-small;
+}
+.logo img{
+    width: 50%;
+    padding: 20px 10px;
+}
+.btn1{
+    border: 3px solid;
+    border-color: #009ad8;
+
+}
+
+#search{
+    background-image: url(../image/banner.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.btn-search{
+    padding: 10px 40px;
+    background-color: #009ad8;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    right: 5px;
+    top: 5px;
+
+}
+.form-control1{
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    padding: 13px 20px;
+    background-color: #1E202B;
+    color: white;
+    
+}
+
+.info{
+    color: white;
+    background-color: rgb(50,53,68);
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(0,0,0);
+    margin-top: 100px;
+}
+.nextDaybg{
+    text-align: center;
+    background-color: #1E202B;
+
+}
+.today{
+    padding: 10px;
+}
+.today .mid img{
+    width: 40%;
+}
+.today .mid .mod p{
+    color: #009ad8 !important;
+}
+
+.today .buttom{
+    display: flex;
+    justify-content: space-between;
+}
+.today .buttom .sec{
+    display: flex;
+    align-items: center;
+}
+.today .buttom .sec p{
+    margin: 0px 5px;
+}
+.today .temp{
+    /* margin: 0; */
+    font-size: 6rem;
+    font-weight: bolder;
+
+}
+
+
+.nextDay{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nextDay .mid{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nextDay .mod p{
+    color: #009ad8;
+    font-size: 16;
+    font-weight: lighter;
+}
+footer{
+    background-color: #262936;
+}
+.form-control2{
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    padding: 13px 20px;
+    background-color: #1E202B;
+    color: white;
+    
+}
+.btn-search2{
+    padding: 10px 40px;
+    background-color: #009ad8;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    right: 20px;
+    top: 5px;
+
+}
+.social a{
+    text-align: center;
+    color: #009ad8;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.social a i{
+    font-size: 25px;
+}
